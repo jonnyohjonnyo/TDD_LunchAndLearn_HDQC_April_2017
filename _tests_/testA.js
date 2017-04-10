@@ -1,10 +1,11 @@
 import { expect } from 'chai';
+import _ from 'lodash';
 
-import * as yourCode from '../src/tdd/yourCode';
+import yourCode from '../src/tdd/yourCode';
 
-describe('TDD lunch and learn code', () => {
-    it('should do part A', () => {
-        const results = yourCode.doMath(5);
-        expect(results).to.equal(10);
+describe('TDD lunch and learn function', () => {
+    it('should return an array', () => {
+        const results = yourCode();
+        expect(_.isArray(results)).to.equal(true);
     });
 });

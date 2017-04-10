@@ -8,7 +8,7 @@ const RadComponent = () => {
     const buttons = _.map(collection, word => (
         <Button text={word} />
     ));
-    return (<div>{buttons}</div>);
+    return (<div className="button-group">{buttons}</div>);
 };
 
 export default RadComponent;
