@@ -13,7 +13,7 @@ const Button = (props) => {
     const { link, text } = props;
     return (
         <form action={link}>
-            <button className="hd-button" style={{ minWidth: '300px' }} type="submit">{text}</button>
+            <button className="hd-button" style={{ minWidth: '355px' }} type="submit">{text}</button>
         </form>
     );
 };

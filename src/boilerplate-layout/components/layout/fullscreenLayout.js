@@ -15,12 +15,9 @@ const styles = {
         justifyContent: 'flex-start',
         alignItems: 'stretch',
         alignContent: 'stretch',
-
-        background: 'rgba(255, 255, 255, .1)',
     },
     fillArea: {
         padding: '8px',
-        background: 'rgba(0, 0, 255, .1)',
         display: 'flex',
         flex: 1,
         flexDirection: 'row',
@@ -29,8 +26,6 @@ const styles = {
         alignContent: 'stretch',
     },
     fillAreaContent: {
-        background: 'rgba(0, 0, 0, .1)',
-        border: '1px solid #000000',
         overflow: 'auto',
         width: '100%',
         padding: '10px',
@@ -50,7 +45,7 @@ const FullScreenLayout = (props) => {
 
     return (
         <div style={styles.parent}>
-            <div className="flexbox-item header">
+            <div className="">
                 {header}
             </div>
             <div style={styles.fillArea}>

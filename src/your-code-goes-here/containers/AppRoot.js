@@ -12,11 +12,11 @@ class AppRoot extends Component {
 
         const headerOptions = {};
         headerOptions.useHeader = true;
-        headerOptions.component = (<HeaderContent />);
+        headerOptions.component = (<h4></h4>);
 
         const footerOptions = {};
         footerOptions.useFooter = true;
-        footerOptions.component = (<h4>Footer</h4>);
+        footerOptions.component = (<h4></h4>);
 
         const contentOptions = {};
         contentOptions.component = (children) ? (<div>{children}</div>) : (<HomePageContent />);

@@ -9,8 +9,9 @@ const getCollection = () => {
 
 export default getCollection;
 
-// TODO: move this code into the getCollection when ready to Reactify
+
 /*
+// TODO: move this code into the getCollection function when ready to Reactify
 const buttons = _.map(collection, word => (
     <Button text={word} />
 ));
