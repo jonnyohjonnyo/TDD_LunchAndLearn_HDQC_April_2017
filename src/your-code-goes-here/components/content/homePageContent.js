@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Cheater from '../../../tdd/cheating/is/always/encouraged/stealMe';
+import Component from '../../../tdd/yourCode';
 
 const HomePageContent = () => {
     return (
@@ -9,7 +9,7 @@ const HomePageContent = () => {
             <p className="lead" style={{ fontFamily: 'Homervetica, Helvetica' }}>
             	You just made a React component!
         	</p>
-            <Cheater text="yo" />
+            <Component />
         </div>);
 };
 
