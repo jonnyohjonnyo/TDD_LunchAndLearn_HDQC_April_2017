@@ -14,7 +14,7 @@ describe('TDD lunch and learn function', () => {
     const Component = yourCode(props);
     const $ = dom.load(render(Component));
 
-    it('should render', () => {
+    it('should render a React component', () => {
         const output = $('div').html();
         expect(output).to.be.ok;
     });

@@ -9,7 +9,7 @@
     "testB": "mocha --compilers js:babel-core/register ./_tests_/testB.js --watch",
     "testC": "mocha --compilers js:babel-core/register ./_tests_/testC.js --watch",
     "lint": "eslint \"./src/**/*.{js,jsx}\"",
-    "fireup": "npm run testC && npm start"
+    "fireup": "npm start"
   },
   "repository": {
     "type": "git",

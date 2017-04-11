@@ -1,3 +1,4 @@
+// TODO: uncomment these lines when you get to testC
 // import React from 'react';
 // import _ from 'lodash';
 

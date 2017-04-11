@@ -9,7 +9,8 @@ describe('TDD lunch and learn function', () => {
         expect(_.size(results)).to.be.at.least(3);
     });
     it('should only contain strings', () => {
-    	const nonStrings = _.reduce(results, (collection, item) => {
+    	expect(_.size(results)).to.be.at.least(1);
+        const nonStrings = _.reduce(results, (collection, item) => {
         	if (!_.isString(item)) {
         		collection.push(item);
         	}
